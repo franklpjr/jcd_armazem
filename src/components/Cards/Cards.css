@@ -1,0 +1,29 @@
+.cards-wrapper {
+    display: flex;
+    text-align: center;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .cards-wrapper {
+        margin-top: 10%;
+    }
+}
+
+.card-style {
+    border-radius: 10%;
+    margin: 1%;
+}
+
+.card-icons {
+    width: 25%;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-style.card {
+    align-items: center;
+}

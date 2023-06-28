@@ -1,0 +1,33 @@
+.Footer-wrapper {
+    display: flex;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+}
+
+.Footer-sign {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+.horario {
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .info {
+        padding-top: 6%;
+    }    
+}
