@@ -10,15 +10,15 @@ import caixas from "../../assets/caixas.jpg"
 function CarouselHome() {
   return (
     <Carousel>
-      <Carousel.Item>
+      <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
           src={churrasqueiras}
           alt="First slide"
         />
         
-      </Carousel.Item>
-      <Carousel.Item>
+      </Carousel.Item >
+      <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
           src={tijolo2}
@@ -26,11 +26,11 @@ function CarouselHome() {
         />
 
         <Carousel.Caption>
-          <h3>Tijolos direto da fábrica</h3>
-          <p>Material 100% paletizado e a pronta entrega</p>
+          {/*<h3>Tijolos direto da fábrica</h3>
+          <p>Material 100% paletizado e a pronta entrega</p>*/}
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
           src={caixas}
@@ -38,10 +38,10 @@ function CarouselHome() {
         />
 
         <Carousel.Caption>
-          <h3>Linha FORTLEV de tanques e caixas</h3>
+          {/*<h3>Linha FORTLEV de tanques e caixas</h3>
           <p>
             É muito mais proteção e conforto para sua família.
-          </p>
+        </p>*/}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
