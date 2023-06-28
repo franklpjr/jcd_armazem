@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import churrasqueiras from "../../assets/churrasqueiras.jpg"
 import tijolo2 from "../../assets/tijolo2.jpg"
 import caixas from "../../assets/caixas.jpg"
+import "./CarouselHome.css"
 
 
 function CarouselHome() {
