@@ -3,14 +3,17 @@ import styled from 'styled-components';
 import Burger from './Burger';
 import jcdlogo from "../../assets/jcd-log.png";
 
+{/*rgb(255, 81, 28)*/}
+
 const Nav = styled.nav`
   width: 100%;
   height: 55px;
   color: white;
   font-style: border;
-  background-color: rgb(255, 81, 28);
+  background-color: black;
   padding: 0 20px;
   position: fixed;
+  top: 0;
   z-index: 2;
   display: flex;
   justify-content: space-between;
