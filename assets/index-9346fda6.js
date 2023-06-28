@@ -132,6 +132,8 @@ Error generating stack: `+o.message+`
   font-style: border;
   background-color: rgb(255, 81, 28);
   padding: 0 20px;
+  position: fixed;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   .logo {
