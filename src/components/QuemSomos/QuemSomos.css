@@ -3,3 +3,10 @@
     color: rgb(255, 255, 255);
     padding: 10%;
 }
+
+@media (max-width: 767px) 
+{    
+    .quemsomos-wrapper{
+        margin-top: 0px;
+    }
+}

@@ -23,7 +23,12 @@
 }
 
 .horario {
-    text-align: center;
+    text-align: left;
+    padding: 5%;
+}
+
+.contato {
+    padding: 5%;
 }
 
 @media (max-width: 1000px) {
