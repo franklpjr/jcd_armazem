@@ -10,7 +10,7 @@ const Nav = styled.nav`
   height: 55px;
   color: white;
   font-style: border;
-  background-color: orange;
+  background-color: #FF8C00;
   padding: 0 20px;
   top: 0;
   z-index: 2;
