@@ -10,9 +10,8 @@ const Nav = styled.nav`
   height: 55px;
   color: white;
   font-style: border;
-  background-color: black;
+  background-color: orange;
   padding: 0 20px;
-  position: fixed;
   top: 0;
   z-index: 2;
   display: flex;
