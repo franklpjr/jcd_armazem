@@ -6,6 +6,7 @@ import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import PorqueNos from "../../components/PorqueNos/PorqueNos";
 import QuemSomos from "../../components/QuemSomos/QuemSomos";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 import "./HomePage.css"
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
 
     return (
         <div>
+            <ScrollToTop />
             <Navbar /> {/* Para criar o navbar, rodei o comando npm install styled-components@latest e segui os passos do site https://levelup.gitconnected.com/how-to-create-a-responsive-hamburger-navigation-menu-reactjs-and-styled-components-59ce167ed543 . */}
             <CarouselHome />
             <QuemSomos />
