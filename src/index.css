@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     background-size: contain;
+    contain: size; /*Tentativa de manter o Navbar fixo e botão voltar pro topo também*/
   }
   
   a {
@@ -17,7 +18,7 @@
   body {
     min-width: 320px;
     min-height: 100vh;
-    /*background-size: contain;*/
+    background-size: contain;
   }
   
   h1 {
