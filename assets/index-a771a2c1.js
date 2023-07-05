@@ -144,6 +144,7 @@ PERFORMANCE OF THIS SOFTWARE.
   color: white;
   font-style: border;
   background-color: #FF8C00;
+  position: fixed;
   padding: 0 20px;
   top: 0;
   z-index: 2;
