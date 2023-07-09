@@ -3,3 +3,12 @@
     color: rgb(255, 255, 255);
     padding: 10%;
 }
+
+@media (max-width: 767px) 
+{    
+    .churrasqueiras-wrapper{
+        margin-top: 0px;
+        padding-top: 20%;
+        padding-bottom: 10%;
+    }
+}
