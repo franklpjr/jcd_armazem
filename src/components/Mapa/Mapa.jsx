@@ -9,7 +9,7 @@ export default function Mapa(){
       lat: -3.1765773856756327,
       lng: -60.11379391182524
     },
-    zoom: 14
+    zoom: 16
   };
 
   return (
@@ -23,7 +23,7 @@ export default function Mapa(){
         <AnyReactComponent
           lat={59.955413}
           lng={30.337844}
-          text="My Marker"
+          text="JCD Armazém"
         />
       </GoogleMapReact>
     </div>
