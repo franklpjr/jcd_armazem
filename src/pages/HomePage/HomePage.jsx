@@ -1,4 +1,3 @@
-
 import AquiVoceEncontra from "../../components/AquiVoceEncontra/AquiVoceEncontra";
 import CarouselHome from "../../components/CarouselHome/CarouselHome";
 import Churrasqueiras from "../../components/Churrasqueiras/Churrasqueiras";
@@ -8,9 +7,9 @@ import PorqueNos from "../../components/PorqueNos/PorqueNos";
 import QuemSomos from "../../components/QuemSomos/QuemSomos";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 import "./HomePage.css"
+import React from "react";
 
 const HomePage = () => {
-
 
     return (
         <div>

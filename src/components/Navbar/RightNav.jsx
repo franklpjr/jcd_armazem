@@ -1,14 +1,13 @@
 import styled from 'styled-components';
 import React from 'react'
 
-
-
 const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
   li {
     padding: 18px 10px;
+    font-
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
@@ -28,16 +27,49 @@ const Ul = styled.ul`
   }
 `;
 
+function scrollQuemSomos() {
+  if (window.matchMedia('(max-width: 767px)').matches) {
+      window.scrollTo(0, 407);
+  } else {
+      window.scrollTo(0, 697);
+  }
+}
+
+function scrollParceiros() {
+  if (window.matchMedia('(max-width: 767px)').matches) {
+    window.scrollTo(0, 1975);
+  } else {
+    window.scrollTo(0, 1537);
+  }
+}
+
+function scrollChurrasqueiras() {
+  if (window.matchMedia('(max-width: 767px)').matches) {
+    window.scrollTo(0, 2325);
+  } else {
+    window.scrollTo(0, 1897);
+  }
+}
+
+function scrollContato() {
+  if (window.matchMedia('(max-width: 767px)').matches) {
+    window.scrollTo(0, 3900);
+  } else {
+    window.scrollTo(0, 2597);
+  }
+}
+
 const RightNav = ({ open }) => {
+  
   return (
     <Ul open={open}>
-      <li>Quem Somos</li>
-      <li>Parceiros</li>
-      <li>Churrasqueiras</li>
-      <li>Nossos Produtos</li>
-      <li>Contato</li>
+      <li onClick={scrollQuemSomos}>Quem Somos</li>
+      <li onClick={scrollParceiros}>Parceiros</li>
+      <li onClick={scrollChurrasqueiras}>Churrasqueiras</li>
+      <li onClick={scrollChurrasqueiras}>Nossos Produtos</li>
+      <li onClick={scrollContato}>Contato</li>
     </Ul>
   )
 }
 
-export default RightNav
+export default RightNav;
