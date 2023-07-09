@@ -28,42 +28,31 @@ const Ul = styled.ul`
 `;
 
 function scrollQuemSomos() {
-  if (window.matchMedia('(max-width: 767px)').matches) {
-      window.scrollTo(0, 407);
-  } else {
-      window.scrollTo(0, 697);
-  }
+  const element = document.getElementById("quemsomos");
+  element.scrollIntoView();
 }
 
+
 function scrollParceiros() {
-  if (window.matchMedia('(max-width: 767px)').matches) {
-    window.scrollTo(0, 1975);
-  } else {
-    window.scrollTo(0, 1537);
-  }
+  const element = document.getElementById("parceiros");
+  element.scrollIntoView();
 }
 
 function scrollChurrasqueiras() {
-  if (window.matchMedia('(max-width: 767px)').matches) {
-    window.scrollTo(0, 2325);
-  } else {
-    window.scrollTo(0, 1897);
-  }
+  const element = document.getElementById("churrasqueiras");
+  element.scrollIntoView();
 }
 
 function scrollContato() {
-  if (window.matchMedia('(max-width: 767px)').matches) {
-    window.scrollTo(0, 3900);
-  } else {
-    window.scrollTo(0, 2597);
-  }
+  const element = document.getElementById("footer");
+  element.scrollIntoView();
 }
 
 const RightNav = ({ open }) => {
   
   return (
     <Ul open={open}>
-      <li onClick={scrollQuemSomos}>Quem Somos</li>
+      <li onClick={scrollQuemSomos}>Quem Somos</li> {/*onClick={scrollQuemSomos}*/}
       <li onClick={scrollParceiros}>Parceiros</li>
       <li onClick={scrollChurrasqueiras}>Churrasqueiras</li>
       <li onClick={scrollChurrasqueiras}>Nossos Produtos</li>
