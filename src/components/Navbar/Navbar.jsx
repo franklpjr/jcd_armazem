@@ -19,7 +19,7 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   .logo {
-    padding: 5px 0;
+    margin-top: 7.5px;
   }
 `
 
@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <Nav>
       <div className="logo">
-      <img src={jcdlogo} width="42px"/>
+        <img src={jcdlogo} width="40px"/>
       </div>
       <Burger />
     </Nav>
